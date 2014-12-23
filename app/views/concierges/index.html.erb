@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Concierges</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Phone</th>
+      <th>Name</th>
+      <th>Email</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @concierges.each do |concierge| %>
+      <tr>
+        <td><%= concierge.phone %></td>
+        <td><%= concierge.name %></td>
+        <td><%= concierge.email %></td>
+        <td><%= link_to 'Show', concierge %></td>
+        <td><%= link_to 'Edit', edit_concierge_path(concierge) %></td>
+        <td><%= link_to 'Destroy', concierge, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Concierge', new_concierge_path %>

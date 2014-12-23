@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  suite_number: MyString
+  resident: 
+  owner_email: MyString
+
+two:
+  suite_number: MyString
+  resident: 
+  owner_email: MyString

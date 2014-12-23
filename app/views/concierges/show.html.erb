@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @concierge.phone %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @concierge.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @concierge.email %>
+</p>
+
+<%= link_to 'Edit', edit_concierge_path(@concierge) %> |
+<%= link_to 'Back', concierges_path %>

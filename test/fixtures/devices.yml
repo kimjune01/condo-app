@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  endpoint_arn: MyString
+  resident: 
+  active_status: 
+
+two:
+  endpoint_arn: MyString
+  resident: 
+  active_status: 
